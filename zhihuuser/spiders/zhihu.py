@@ -6,9 +6,9 @@ from zhihuuser.items import UserItem
 
 
 class ZhihuSpider(Spider):
-    name = 'zhihu'
-    allowed_domains = ['www.zhihu.com']
-    start_urls = ['http://www.zhihu.com/']
+    name = 'zhihu'  # 用于区别Spider,唯一
+    allowed_domains = ['www.zhihu.com'] # 允许爬取的域名列表
+    start_urls = ['http://www.zhihu.com/']  # Spider在启动时进行爬取的url列表
 
     # 指定一个开始的用户，
     start_user = 'excited-vczh'
