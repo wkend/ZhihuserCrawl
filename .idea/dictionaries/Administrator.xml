@@ -2,8 +2,10 @@
   <dictionary name="Administrator">
     <words>
       <w>coun</w>
+      <w>dupefilter</w>
       <w>flowees</w>
       <w>followees</w>
+      <w>httpcache</w>
       <w>mongo</w>
       <w>scrapy</w>
       <w>vczh</w>
